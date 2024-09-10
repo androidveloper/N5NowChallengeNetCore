@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\N5Now.Domain.Entity\N5Now.Domain.Entity.csproj" />
+    <ProjectReference Include="..\..\N5Now.Domain.Interface\N5Now.Domain.Interface.csproj" />
+    <ProjectReference Include="..\N5Now.Infraestructure.Data\N5Now.Infraestructure.Data.csproj" />
+  </ItemGroup>
+
+</Project>
